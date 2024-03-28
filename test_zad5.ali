@@ -1,0 +1,88 @@
+V "GNAT Lib v10"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U test_zad5%b		test_zad5.adb		1b15ef3c NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_llu%s	s-imgllu.adb		s-imgllu.ali
+Z system.img_uns%s	s-imguns.adb		s-imguns.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+W zad5%s		zad5.ads		zad5.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-ioexce.ads		20230707070819 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-textio.ads		20230707070819 aef4d56d ada.text_io%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-c.ads		20230707070819 5421119b interfaces.c%s
+D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
+D system.ads		20230707070819 4635ec04 system%s
+D s-conca2.ads		20230707070819 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20230707070819 0ebbdb71 system.crtl%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-ficobl.ads		20230707070819 078245e4 system.file_control_block%s
+D s-imgint.ads		20230707070819 02dbe0c2 system.img_int%s
+D s-imgllu.ads		20230707070819 49c900c3 system.img_llu%s
+D s-imguns.ads		20230707070819 9ff43cf7 system.img_uns%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20230707070819 1b7d22d2 system.wch_con%s
+D test_zad5.adb		20240325195521 19e096a3 test_zad5%b
+D zad5.ads		20240325195856 f820bd69 zad5%s
+G a e
+G c Z b b [test_zad5 standard 5 11 none]
+G r c none [test_zad5 standard 5 11 none] [my_factorial zad5 11 14 none]
+G r c none [test_zad5 standard 5 11 none] [my_gcd zad5 14 14 none]
+G r c none [test_zad5 standard 5 11 none] [solve_diophantine zad5 17 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 28|2r6 15r4 16r4 18r4 19r4 21r4 23r4 24r4 25r4
+X 6 a-textio.ads
+57K13*Text_IO 727e16 28|2w10 15r8 16r8 18r8 19r8 21r8 23r8 24r8 25r8
+508U14*Put_Line 28|15s16 16s16 18s16 19s16 21s16 23s16 24s16 25s16
+X 8 interfac.ads
+38K9*Interfaces 184e15 28|1r6 6r8 7r8 8r8 10r8 11r8 12r8 16r25 19r25 23r34
+. 24r34 25r36
+X 9 i-c.ads
+18K20*C 230e17 28|1w17 6r19 7r19 8r19 10r19 11r19 12r19 16r36 19r36 23r45
+. 24r45 25r47
+35I9*int<integer> 28|10r21 11r21 12r21 23r47 24r47 25r49
+43M9*unsigned 28|6r21 7r21 8r21 19r38
+45M9*unsigned_long 28|16r38
+X 28 test_zad5.adb
+5U11*Test_Zad5 5b11 26l5 26t14
+6m4 N{9|43M9} 16r76
+7m4 A{9|43M9} 19r65
+8m4 B{9|43M9} 19r68
+10i4 C{9|35I9} 22r37
+11i4 D{9|35I9} 22r40
+12i4 E{9|35I9} 22r43
+13r4 Result{29|5R10} 22m4 23r57 24r57 25r59
+X 29 zad5.ads
+3K9*zad5 28|3w6 13r13 16r58 19r53 22r14 29|20e9
+5R10*EquationSolution 28|13r18 29|9e15
+6i9*X{9|35I9} 28|23r64
+7i9*Y{9|35I9} 28|24r64
+8i9*Gcd{9|35I9} 28|25r66
+11V14*My_Factorial{9|45M9} 28|16s63
+14V14*My_Gcd{9|43M9} 28|19s58
+17V14*Solve_Diophantine{5R10} 28|22s19
+

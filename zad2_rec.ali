@@ -1,0 +1,41 @@
+V "GNAT Lib v10"
+P ZX
+
+RN
+RV NO_RECURSION
+RV SPARK_05
+
+U zad2%b		zad2_rec.adb		49f6fbe7 NE OO PK IL
+
+U zad2%s		zad2.ads		096fda88 EE NE OO PK IL
+
+D system.ads		20230707070819 4635ec04 system%s
+D zad2.ads		20240325073229 096fda88 zad2%s
+D zad2_rec.adb		20240325073116 4099216f zad2%b
+G a e
+G c Z s b [factorial zad2 8 13 none]
+G c Z s b [gcd zad2 9 13 none]
+G c Z s b [solve_diophantine zad2 10 13 none]
+G c Z s s [equation_solutionIP zad2 2 9 none]
+X 2 zad2.ads
+1K9*zad2 11l5 11e9 3|1b14 46l5 46t9
+2R9*Equation_Solution 6e14 10r69 3|20r69 21r59 27r23 35r19
+3i7*X{integer} 3|29r37 42r28
+4i7*Y{integer} 3|29r29 29r56 42r64
+5i7*GCD{positive} 3|29r64 37r26 39r34 42r51 42r87 42r100
+8V13*Factorial{positive} 8>24 3|2b13 7s21 9l8 9t17
+8i24 N{positive} 3|2b24 4r10 7r17 7r32
+9V13*GCD{positive} 9>18 9>21 3|11b13 16s17 18l8 18t11
+9i18 A{positive} 3|11b18 14r17 16r25
+9i21 B{positive} 3|11b21 13r10 16r22 16r31
+10V13*Solve_Diophantine{2R9} 10>32 10>35 10>48 3|20b13 45l8 45t25
+10i32 A{integer} 3|20b32 35r60
+10i35 B{integer} 3|20b35 35r63
+10i48 C{positive} 3|20b48 37r13 42r40 42r76
+X 3 zad2_rec.adb
+21V16 Extended_Euclidean{2|2R9} 21b16 21>36 21>39 27s44 32l11 32t29 35s40
+21i36 A{integer} 24r40 27r67 29r42
+21i39 B{integer} 23r13 27r64 27r73 29r46
+27r16 Next{2|2R9} 29r24 29r32 29r51 29r59
+35r10 Result{2|2R9} 37r19 39r27 42r21 42r44 42r57 42r80 42r93
+

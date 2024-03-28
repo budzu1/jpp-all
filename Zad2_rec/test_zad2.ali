@@ -1,0 +1,68 @@
+V "GNAT Lib v10"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U test_zad2%b		test_zad2.adb		712a65cc NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_6%s	s-conca6.adb		s-conca6.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+W zad2%s		zad2.adb		zad2.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-ioexce.ads		20230707070819 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-textio.ads		20230707070819 aef4d56d ada.text_io%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
+D system.ads		20230707070819 4635ec04 system%s
+D s-conca2.ads		20230707070819 02a0d7d0 system.concat_2%s
+D s-conca6.ads		20230707070819 d2c72db2 system.concat_6%s
+D s-crtl.ads		20230707070819 0ebbdb71 system.crtl%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-ficobl.ads		20230707070819 078245e4 system.file_control_block%s
+D s-imgint.ads		20230707070819 02dbe0c2 system.img_int%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20230707070819 1b7d22d2 system.wch_con%s
+D test_zad2.adb		20240325093616 e8b3e9b5 test_zad2%b
+D zad2.ads		20240325092757 376d5914 zad2%s
+G a e
+G c Z b b [test_zad2 standard 4 11 none]
+G r c none [test_zad2 standard 4 11 none] [factorial zad2 8 13 none]
+G r c none [test_zad2 standard 4 11 none] [gcd zad2 10 13 none]
+G r c none [test_zad2 standard 4 11 none] [solve_diophantine zad2 12 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 26|1r6 1r23
+X 6 a-textio.ads
+57K13*Text_IO 727e16 26|1w10 1r27
+508U14*Put_Line 26|11s4 12s4 13s4 15s4
+X 26 test_zad2.adb
+4U11*Test_Zad2 4b11 16l5 16t14
+5i4 A{integer} 13r56 14r22
+6i4 B{integer} 13r59 14r25
+7i4 C{natural} 14r28
+8i4 X{integer} 14m31 15r91
+8i7 Y{integer} 14m34 15r121
+9i4 GCD_Value{natural} 14m37 15r153
+X 27 zad2.ads
+1K9*zad2 26|2w6 2r16 27|14e9
+8V13*Factorial{positive} 26|12s50 27|9i<c,Factorial_C>22
+10V13*GCD{positive} 26|13s52 27|11i<c,GCD_C>22
+12U14*Solve_Diophantine 26|14s4 27|13i<c,Solve_Diophantine_C>22
+

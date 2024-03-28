@@ -1,0 +1,48 @@
+V "GNAT Lib v10"
+P ZX
+
+RN
+
+U zad5%s		zad5.ads		ac01acf2 NE OO PK IL
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-c.ads		20230707070819 5421119b interfaces.c%s
+D system.ads		20230707070819 4635ec04 system%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D zad5.ads		20240325195856 f820bd69 zad5%s
+G a e
+G c Z s s [my_factorial zad5 11 14 none]
+G c Z s s [my_gcd zad5 14 14 none]
+G c Z s s [solve_diophantine zad5 17 14 none]
+G c Z s s [equationsolutionIP zad5 5 10 none]
+X 3 interfac.ads
+38K9*Interfaces 184e15 9|1r6 6r15 7r15 8r15 11r31 11r61 14r25 14r52 14r82
+. 17r36 17r58 17r80
+X 4 i-c.ads
+18K20*C 230e17 9|1w17 6r26 7r26 8r26 11r42 11r72 14r36 14r63 14r93 17r47
+. 17r69 17r91
+35I9*int<integer> 9|6r28 7r28 8r28 17r49 17r71 17r93
+43M9*unsigned 9|11r44 14r38 14r65 14r95
+45M9*unsigned_long 9|11r74
+X 9 zad5.ads
+3K9*zad5 20l5 20e9
+5R10*EquationSolution 9e15 17r105
+6i9*X{4|35I9}
+7i9*Y{4|35I9}
+8i9*Gcd{4|35I9}
+11V14*My_Factorial{4|45M9} 11>27 12b<c,my_factorial>22
+11m27 N{4|43M9}
+14V14*My_Gcd{4|43M9} 14>21 14>48 15b<c,my_gcd>22
+14m21 A{4|43M9}
+14m48 B{4|43M9}
+17V14*Solve_Diophantine{5R10} 17>32 17>54 17>76 18b<c,solveDiophantine>22
+17i32 A{4|35I9}
+17i54 B{4|35I9}
+17i76 C{4|35I9}
+
